@@ -1,0 +1,7 @@
+[200~version: '3.3'
+services:
+        run:
+                container_name: tf2-dedicated
+                environment:
+                        -cm2network/steamcmd
+                image: run
